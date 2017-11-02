@@ -33,6 +33,15 @@ To check the geographical address on the SBC328 before your run the example ente
 
 ![BIOS GA Check](abaco/SBC328-GA-Check.JPG)
 
+VPX Geographical Address should report the value 1. If you require this code to work in any other slot then you will need to modify the line below in the code to indicate the slot you wish to function in:
+
+```C
+#define SLOT SLOT_1
+...
+unsigned char ipmi_message[] = { SLOT, 0x18, 0x00, 0x01, 0x02, 0x01, 0x00 };
+```
+
+
 # Links
 * [SBC328](https://www.abaco.com/products/sbc328-3u-openvpx-single-board-computer)
 * [SCVPX3U Test Chassis](https://www.abaco.com/products/scvpx3u/n3555)

@@ -23,7 +23,9 @@ Awaiting response CTRL+C to finish...
 
 # SBC328 Setup
 
-The code was tested against the SBC328 single board computer. Details of the performed tests are provided below.
+The code was tested against the SBC328 single board computer which used COM3 as the serial host interface to the IPMI. The code defaults to this interface but can be modified by chaning the macro **COM_PORT** at the top of the file. 
+
+Details of the test setup are provided below:
 
 Chassis used was the Abaco Systems SCVPX3U. This chassis requires the Geographical Addressing to be configured on the backplane using jumpers. The SBC328 was installed in SLOT 1 and given the geographical address 1 by fitting the jumper as shown below:
 

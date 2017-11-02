@@ -1,0 +1,2 @@
+foo: example.cpp
+ cl example.cpp 

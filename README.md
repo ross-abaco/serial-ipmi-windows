@@ -43,6 +43,7 @@ unsigned char ipmi_message[] = { SLOT, 0x18, 0x00, 0x01, 0x02, 0x01, 0x00 };
 
 
 # Links
+* [IPMI Specification V2.0](http://download.intel.com/design/servers/ipmi/IPMI2_0E4_Markup_061209.pdf)
 * [SBC328](https://www.abaco.com/products/sbc328-3u-openvpx-single-board-computer)
 * [SCVPX3U Test Chassis](https://www.abaco.com/products/scvpx3u/n3555)
 * [BMM / BMC with VITA46.11 Support](https://www.abaco.com/download/bmmbmc-vita4611-support-software-reference-manual)

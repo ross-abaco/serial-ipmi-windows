@@ -27,11 +27,11 @@ The code was tested against the SBC328 single board computer. Details of the per
 
 Chassis used was the Abaco Systems SCVPX3U. This chassis requires the Geographical Addressing to be configured on the backplane using jumpers. The SBC328 was installed in SLOT 1 and given the geographical address 1 by fitting the jumper as shown below:
 
-![SCVPX3U Jumper position](abaco/SCVPX3U-Jumpers.png)
+![SCVPX3U Jumper position](abaco/SCVPX3U-Jumpers.JPG)
 
 To check the geographical address on the SBC328 before your run the example enter the BIOS and look for the reported address under the ABACO -> FPGA menu as shown below:
 
-![BIOS GA Check](abaco/SBC328-GA-Check.png)
+![BIOS GA Check](abaco/SBC328-GA-Check.JPG)
 
 # Links
 * [SBC328](https://www.abaco.com/products/sbc328-3u-openvpx-single-board-computer)
